@@ -5,4 +5,4 @@ The vehicles.py manages the dataset and it creates scatterplots and histogrems a
 
 ![logo](./veh_histogram.png?raw=true)
 
-The bootstr_vehicles.py 
+The bootstr_vehicles.py removes the nan values in array, it gets the data for the current fleet column and after that it gets the data for the new fleet column.
