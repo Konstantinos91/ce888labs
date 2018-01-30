@@ -2,3 +2,6 @@ The vehicles.py manages the dataset and it creates scatterplots and histogrems a
 
 ![logo](./veh_scaterplot.png?raw=true)
 >>>>>>> 0c9d3809a6d844bd9675422b631cd3faafa2b4ea
+
+![logo](./veh_histogram.png?raw=true)
+
