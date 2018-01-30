@@ -1,4 +1,4 @@
-#Removing the nan values in array from melissaOu on https://stackoverflow.com/questions/11620914/removing-nan-values-from-an-array
+#Removes the nan values in array from melissaOu on https://stackoverflow.com/questions/11620914/removing-nan-values-from-an-array
 
 import matplotlib
 matplotlib.use('Agg')
@@ -33,7 +33,7 @@ if __name__ == "__main__":
 	df = pd.read_csv('./vehicles.csv')
 	#print (df.columns)
 	
-	data = df.values.T[0]   #getting the data for current fleet column
+	data = df.values.T[0]   #gets data for the current fleet column
 	boots = []
 	boots = bootstrap (np.std,10000, data)   
 	#print(boots) will print (STD, lower, upper)
@@ -42,8 +42,8 @@ if __name__ == "__main__":
 	print("Current Fleet Lower Bound" , boots[1])
 
 
-	data = df.values.T[1]   #getting the data for new fleet column
-	data = data[np.logical_not(np.isnan(data))]    #removing nan values in array
+	data = df.values.T[1]   #gets data for the new fleet column
+	data = data[np.logical_not(np.isnan(data))]    #removes the nan values in an array
 	boots = []
 	boots = bootstrap (np.std,10000, data)
 	print("\nNew Fleet Standard Deviation :", boots[0])
