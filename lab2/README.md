@@ -5,3 +5,4 @@ The vehicles.py manages the dataset and it creates scatterplots and histogrems a
 
 ![logo](./veh_histogram.png?raw=true)
 
+The bootstr_vehicles.py 
